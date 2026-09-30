@@ -98,6 +98,84 @@
     Example: On Skill Struck (python, javascript, and java) this is the area that your code is printed to
 </details>
 
+<details>
+  <summary>Commenting</summary>
+Information in you program that does not run, but simply meant to be informative.
+  
+    Example: //This is a comment in Java
+</details>
+
+<details>
+  <summary>Internal Documentation</summary>
+Internal documentation is the helpful comments and notes written inside your code to explain what it does, making it easier for you and others to understand and maintain later.  
+
+</details>
+
+<details>
+  <summary>External Documentation</summary>
+External documentation is the information about your code that's kept outside the actual source files, like user guides, API references, or manuals, to help others understand how to use or work with your program.  
+  
+</details>
+
+<details>
+  <summary>Variable</summary>
+A variable is like a box that holds the information you want
+  
+    Example: //String weather = "sunny";
+                     int age = 4;
+</details>
+
+<details>
+  <summary>String</summary>
+A string is a set of words or numbers that are surrounded by quotation marks. "Here is 1 string."
+  
+    Example: "I am a string."
+</details>
+
+</details>
+
+<details>
+  <summary>Integers</summary>
+Whole numbers, which can be either positive or negative.
+  
+    Example: 12, -300
+</details>
+
+<details>
+  <summary>Double</summary>
+Used for decimal numbers.
+  
+    Example: 3.14, -.05
+</details>
+
+<details>
+  <summary>Char</summary>
+Used for a single character. Characters must be surrounded by single quotes.
+  
+    Example: 'A', '1', '$'
+</details>
+
+<details>
+  <summary>Boolean</summary>
+Represents true or false values.
+  
+    Example: true, false
+</details>
+
+<details>
+  <summary>camelCase</summary>
+CamelCase is a way of writing compound words or phrases where each word starts with a capital letter and there are no spaces
+  
+    Example: myVariableName or calculateTotalAmount
+</details>
+
+<details>
+  <summary>Concatenation</summary>
+Adding strings together to create longer strings. "Hello my name" + "is" + "Dominique"
+  
+    Example: print("This is " + "an example of " + "concatenation.")
+             # Output: This is an example of concatenation.
+</details>
 
 ## Code Examples
  
