@@ -3,4 +3,5 @@ public class Blackjack{
     System.out.println("Welcome to the table ready to play");
     boolean gameRunning = true;
     while(gameRunning){
-      System.out.println("Here are your cards: %d of");
+      System.out.println("Here are your cards: %d of %s and %d of %s");
+      
