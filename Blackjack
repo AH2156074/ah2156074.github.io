@@ -4,7 +4,7 @@ public class Blackjack{
     boolean gameRunning = true;
     while(gameRunning){
       //card code
-      int cardType = (int)(math.random()*4)+1;
+      int cardType = (int)(Math.random()*4)+1;
       String cardName;
       if(cardType == 1){
             cardName = "Spades";
@@ -13,12 +13,25 @@ public class Blackjack{
       } else if (cardType == 3){
             cardName = "Diamonds";
       } else {
-            enemyPower = "Hearts";
+            cardName = "Hearts";
       }
       //number code
       int cardNumber = (int)(Math.random()*10)+1;
-      
-      
+
+      if (cardNumber = 10){
+        int special = (int)(Math.random()*4)+1;
+        String specialCard;
+        if(special == 1){
+              specialCard = "King";
+        } else if (special == 2){
+              specialCard = "Queen";
+        } else if (special == 3){
+              specialCard = "Jack";
+        } else {
+              specialCard = "cardNumber";
+        }
+      }
+
       //connects to previous code
       int firstNum = cardNumber;
       String firstCardName = cardName;
