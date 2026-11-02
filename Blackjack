@@ -3,5 +3,47 @@ public class Blackjack{
     System.out.println("Welcome to the table ready to play");
     boolean gameRunning = true;
     while(gameRunning){
-      System.out.println("Here are your cards: %d of %s and %d of %s");
+      //card code
+      int cardType = (int)(math.random()*4)+1;
+      String cardName;
+      if(cardType == 1){
+            cardName = "Spades";
+      } else if (cardType == 2){
+            cardName = "Clubs";
+      } else if (cardType == 3){
+            cardName = "Diamonds";
+      } else {
+            enemyPower = "Hearts";
+      }
+      //number code
+      int cardNumber = (int)(math.random()*10)+1;
+      int number;
+      if(cardNumber == 1){
+            number = 1;
+      } else if (cardNumber == 2){
+            number = "2";
+      } else if (cardNumber == 3){
+            number = "3";
+      } else if (cardNumber == 4){
+            number = "4";
+      } else if (cardNumber == 5){
+            number = "5";
+      } else if (cardNumber == 6){
+            number = "6";
+      } else if (cardNumber == 7){
+            number = "7";
+      } else if (cardNumber == 8){
+            number = "8";
+      } else if (cardNumber == 9){
+            number = "9";
+      } else {
+            number = "10";
+      }
+      
+      //connects to previous code
+      int firstNum = number
+      String firstCardName = cardName;
+      int sceondNum = number
+      String secondCardName = cardName;
+      System.out.printf("Here are your cards: %d of %s and %d of %s", firstNum, firstCardName, secondNum, secondCardName);
       
