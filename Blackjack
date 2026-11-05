@@ -17,10 +17,10 @@ public class Blackjack{
       }
       //number code
       int cardNumber = (int)(Math.random()*10)+1;
+      String specialCard;
 
-      if (cardNumber = 10){
+      if (cardNumber == 10){
         int special = (int)(Math.random()*4)+1;
-        String specialCard;
         if(special == 1){
               specialCard = "King";
         } else if (special == 2){
@@ -28,8 +28,10 @@ public class Blackjack{
         } else if (special == 3){
               specialCard = "Jack";
         } else {
-              specialCard = "cardNumber";
+              specialCard = String.valueOf(cardNumber);
         }
+      } else {
+        specialCard = String.valueOf(cardNumber);
       }
 
       //connects to previous code
