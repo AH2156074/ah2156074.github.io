@@ -18,7 +18,6 @@ public class Blackjack{
       //number code
       int cardNumber = (int)(Math.random()*10)+1;
       String specialCard;
-
       if (cardNumber == 10){
         int special = (int)(Math.random()*4)+1;
         if(special == 1){
