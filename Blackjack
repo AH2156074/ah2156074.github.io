@@ -22,13 +22,15 @@ public class Blackjack{
       String specialCard;
 
       if (cardNumber == 10){
-        int special = (int)(Math.random()*4)+1;
+        int special = (int)(Math.random()*5)+1;
         if(special == 1){
               specialCard = "King";
         } else if (special == 2){
               specialCard = "Queen";
         } else if (special == 3){
               specialCard = "Jack";
+        } else if (special == 4){
+              specialCard = "Ace";
         } else {
               specialCard = String.valueOf(cardNumber);
         }
@@ -41,6 +43,12 @@ public class Blackjack{
       String firstCardName = cardName;
       int sceondNum = cardNumber;
       String secondCardName = cardName;
-      System.out.printf("Here are your cards: %d of %s and %d of %s what would you like to do hit or stand", firstNum, firstCardName, secondNum, secondCardName);
-      String userType = scanner.nextLine();
+      System.out.printf("Here are your cards: %d of %s and %d of %s what would you like to do (1)hit or (2)stand", firstNum, firstCardName, secondNum, secondCardName);
+      String userAction = scanner.nextLine();
+      String extraCard;
+      if(userAction == "Hit","hit",h){
+                extraCard = ";
+            } else if (userAction == 2){
+                userPower = "Stand";
+            }
 }}}
